@@ -11,7 +11,32 @@ Ivory - #FDFFF0
 Dark Red - #970C10
 */
 
-h1 {
+/* Navbar */
+nav{
+   background-color: #1E1200;
+}
+
+.nav-link{
+    color: #FDFFF0;
     font-family: 'Arvo', serif;
     font-weight: 700;
+}
+
+.orderBtn{
+    border-radius: 8px;
+    border: none;
+    background-color: #970c10;
+    color: #FDFFF0;
+    font-weight: 700;
+    width: 150px;
+    height: 50px;
+}
+
+/* Call to Action Row */
+
+.callToAction{
+    background-color: #807555;
+    color: #FDFFF0;
+    border-top: 20px solid #1E1200;
+    border-bottom: 20px solid #1E1200;
 }
