@@ -11,6 +11,16 @@ Ivory - #FDFFF0
 Dark Red - #970C10
 */
 
+/* Universal */
+
+.boldHeader{
+    font-weight: 700;
+}
+
+.red{
+    color: #970c10;
+}
+
 /* Navbar */
 nav{
    background-color: #1E1200;
@@ -30,6 +40,32 @@ nav{
     font-weight: 700;
     width: 150px;
     height: 50px;
+    padding: 0 !important;
+}
+
+.orderBtn:hover{
+    background-color: #FDFFF0;
+    color:#970c10;
+}
+
+.fullLine{
+    background-color: #807555;
+    height: 2px;
+    width: 90%;
+    opacity: 90% !important;
+    border-radius: 10px;
+    border: none;
+    margin: 0 auto;
+}
+
+.halfLine{
+    background-color: #807555;
+    height: 2px;
+    width: 50%;
+    opacity: 90% !important;
+    border-radius: 10px;
+    border: none;
+    margin: auto;
 }
 
 /* Call to Action Row */
@@ -39,4 +75,171 @@ nav{
     color: #FDFFF0;
     border-top: 20px solid #1E1200;
     border-bottom: 20px solid #1E1200;
+}
+
+
+/* History Section */
+
+.history{
+    color: #FDFFF0;
+    background-color: #1E1200;
+    font-family: 'Arvo', serif;
+}
+
+/* Hours and Location */
+
+.openTimes{
+    font-family: 'Arvo', serif;
+}
+
+/* Hiring Section */
+
+.hiring{
+    height: 300px;
+    width: 100%;
+    background-image: url("../assets/hiring.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: 20px solid #1E1200;
+}
+
+.hireBox{
+    background-color: black;
+    opacity: 60%;
+    width: 250px;
+    height: 150px;
+}
+
+.hireTxt{
+    color:#FDFFF0;
+    opacity: 100%;
+}
+
+/* Footer */
+
+
+footer{
+    background-color: #1E1200;
+    color: #FDFFF0;
+    text-align: center;
+}
+
+.footerIcons{
+    width: 50px !important;
+    display: inline-block;
+}
+
+
+/* Menu */
+
+
+.menuNav a{
+    color: #970c10;
+    font-family: 'Arvo', serif;
+}
+
+.menuNav a:root{
+    scroll-behavior: smooth;
+}
+
+
+/* Catering */
+
+.caterHero{
+    background-image: url('../assets/al-elmes-ULHxWq8reao-unsplash.png');
+    background-repeat: no-repeat;
+    height: 75vh;
+    width: 100vw;
+    position: relative;
+    background-size: cover;
+    background-position: 50% 50%;
+    padding: 0 !important;
+}
+
+.caterBox{
+    background-color: black;
+    opacity: 70%;
+    width: 35%;
+    height: 40%;
+}
+
+/* Banquet */
+
+.banqHero{
+    background-image: url("../assets/pexels-mat-brown-1395964.png");
+    background-repeat: no-repeat;
+    height: 75vh;
+    width: 100vw;
+    position: relative;
+    background-size: cover;
+    background-position: 50% 50%;
+    padding: 0px !important;
+}
+
+.banqBox{
+    background-color: black;
+    opacity: 70%;
+    width: 35%;
+    height: 40%;
+}
+
+.heroTxt{
+    color: #FDFFF0;
+    font-family: 'Arvo', serif;
+    font-size: 700;
+    text-align: center;
+
+}
+
+.banqRow{
+    background-color: #807555;
+    border-top: 20px solid #1E1200;
+    border-bottom: 20px solid #1E1200;
+    color: #FDFFF0;
+    font-family: 'Arvo', serif;
+}
+
+.genInfo a:root{
+    scroll-behavior: smooth;
+}
+
+
+
+.poliTxt p{
+    color: #970c10;
+    font-family: 'Arvo', serif;
+    text-align: center;
+}
+
+.policy li{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+
+/* Contact */
+
+.contHero{
+    background-image: url('../assets/pexels-ketut-subiyanto-4559707.png');
+    background-repeat: no-repeat;
+    height: 75vh;
+    width: 100vw;
+    position: relative;
+    background-size: cover;
+    background-position: 50% 50%;
+    padding: 0px !important;
+}
+
+.contBox{
+    background-color: black;
+    opacity: 70%;
+    width: 35%;
+    height: 40%;
+}
+
+.submitBtn{
+    background-color: #807555;
+    border: none;
+    border-radius: 7px;
+    color: #FDFFF0;
+
 }
