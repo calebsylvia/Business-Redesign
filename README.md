@@ -1,20 +1,18 @@
-# Business Redesign <img src="./assets/Banner-logo.png" alt="Banner Logo for Dante's Pizza" style="height: 5rem;">
+# Business Redesign <img src="./assets/Banner-logo.png" alt="Banner Logo for Dante's Pizza" style="height: 2rem;">
 
-
-![Banner Logo](./assets/Banner-logo.png)
 
 **Name(s):** Elizabeth Trotter & Caleb Sylvia
 
-> **Project Description:** This was a partner project where we `redesigned` the `existing website` of a small `local business` in our community. The overall goal was to keep the personality from the restaurant's original design, but optimize the website to create a better user experience. Our design was `presented to a panel` of UI/UX, web, and business development specialists to obtain design critques prior to our project development start in Sprint Wk 3.
+> **Project Description:** This was a partner project where we `redesigned` the `existing website` of a `local business` in our community. The overall goal was to keep the personality from the restaurant's original design, but optimize the website to create a better user experience. Our design was `presented to a panel` of UI/UX, web, and business development specialists to obtain design critques prior to our project development start in Sprint Week 3.
 
 
 ## Timeline
 
 | Sprint | Description | Tools |
 | --- | --- | --- |
-| **Wk 1** <br/> *(5 days)* | Design a fully responsive website for Dante's Pizza & Cafe | `Figma` | 
-| **Wk 2** <br/> *(5 days)* | 1. Present the design among a panel of professionals <br/> 2. Incorporate design critques suggested by the panel | `Figma presentation`, `Microsoft PowerPoint` |
-| **Wk 3** <br/> *(3 days)* | Develop the website based on the prototype designed | `vanilla JavaScript`, `HTML`, `CSS` |
+| **Week 1** <br/> *5 days* | Design a fully responsive website for Dante's Pizza & Cafe | `Figma` | 
+| **Week 2** <br/> *5 days* | 1. Present the design among a panel of professionals <br/> 2. Incorporate design critques suggested by the panel | `Figma presentation`, `Microsoft PowerPoint` |
+| **Week 3** <br/> *~3 days* | Develop the website based on the prototype designed | `vanilla JavaScript`, `HTML`, `CSS` |
 <p align="right">Table 1: Project timeline work completed during 3 major sprints</p>
 
 > [!NOTE]
@@ -68,9 +66,21 @@ to visit the first prototype iteration.
 **Version 2 (`V.2`)**
 
 ***Features:***
-1. 
+1. Improved contact form
+2. Additional icons
+3. Enhanced eye-catching banner logo
+4. Improved imagery
+5. Spacing fixes
 
 **Version 1 (`V.1`)**
 
 ***Features:***
-1. 
+1. Simplified color palette 
+2. Compatible font pairings
+3. New logo design
+4. Clear call to actions 
+5. Improved user navigation 
+6. Dedicated sections
+7. Improved data presentation
+8. Clean layout & improved formatting
+9. Fully responsive for all formats
