@@ -13,12 +13,32 @@ Dark Red - #970C10
 
 /* Universal */
 
-.boldHeader{
-    font-weight: 700;
+body{
+    background-color: #FDFFF0;
 }
 
 .red{
     color: #970c10;
+}
+
+.fira{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.arvo{
+    font-family: 'Arvo', serif !important;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.padTop{
+    padding-top: 15px;
+}
+
+.colSpace{
+    padding-right: 80px;
 }
 
 /* Navbar */
@@ -59,7 +79,7 @@ nav{
 .fullLine{
     background-color: #807555;
     height: 2px;
-    width: 90%;
+    width: 85%;
     opacity: 90% !important;
     border-radius: 10px;
     border: none;
@@ -152,19 +172,51 @@ footer{
 
 /* Menu */
 
+.menuNav{
+    padding-top: 45px;
+    padding-bottom: 55px;
+}
 
 .menuNav a{
     color: #970c10;
+}
+
+.menuNav p{
+    font-weight: bold;
     font-family: 'Arvo', serif;
+    text-align: center;
+    font-size: 20px;
 }
 
 .menuNav a:root{
     scroll-behavior: smooth;
 }
 
-/* .topBtn{
-    position: fixed;
-} */
+.menuItems{
+    width: 85%;
+    padding-bottom: 40px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    font-size: 18px;
+}
+
+.menuItems li{
+    list-style: none;
+    font-style: italic;
+}
+
+.navBox{
+    width: 50%;
+    margin: 0 auto;
+}
+
+#app{
+    padding-top: 50px;
+}
+
+.topBtn{
+
+}
 
 /* Catering */
 
@@ -243,6 +295,13 @@ footer{
     background: black;
 }
 
+.lineCont::before{
+  padding: 40px 10px;
+  position: relative;
+  background-color: inherit;
+  height: 50%;
+}
+
 .lineCont::after {
     content: '';
     position: absolute;
@@ -251,6 +310,7 @@ footer{
     background-color: #970c10;
     border-radius: 50%;
     z-index: 1;
+
 }
 
 .topBox{
@@ -261,8 +321,8 @@ footer{
     top: 50%;
 }
 
-.timeLine img{
-    width: 50px !important;
+.content img{
+    width: 30px !important;
 }
 
 
