@@ -13,12 +13,24 @@ Dark Red - #970C10
 
 /* Universal */
 
+body{
+    background-color: #FDFFF0;
+}
+
 .boldHeader{
     font-weight: 700;
 }
 
 .red{
     color: #970c10;
+}
+
+.fira{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.arvo{
+    font-family: 'Arvo', serif;
 }
 
 /* Navbar */
@@ -155,11 +167,20 @@ footer{
 
 .menuNav a{
     color: #970c10;
+}
+
+.menuNav p{
+    font-weight: bold;
     font-family: 'Arvo', serif;
+    text-align: center;
 }
 
 .menuNav a:root{
     scroll-behavior: smooth;
+}
+
+.menuItems{
+    width: 80%;
 }
 
 /* .topBtn{
