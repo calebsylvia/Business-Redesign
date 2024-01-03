@@ -1,20 +1,20 @@
-# Business Redesign ![Banner Logo](./assets/Banner-logo.png)
+# Business Redesign <img src="./assets/Banner-logo.png" alt="Banner Logo for Dante's Pizza" style="height: 5rem;">
 
-## Description: Create a Figma Prototype for a local business
+
+![Banner Logo](./assets/Banner-logo.png)
 
 **Name(s):** Elizabeth Trotter & Caleb Sylvia
 
-> **Project Description:** This was a partner project where we redesigned the existing website of a small local business in our community. The overall goal was to keep the personality from the restaurant's original design, but optimize the website to create a better user experience. 
-Our design was presented to a panel of UI/UX, web, and business development specialists to obtain design critques prior to our project development in Sprint Wk 3.
+> **Project Description:** This was a partner project where we `redesigned` the `existing website` of a small `local business` in our community. The overall goal was to keep the personality from the restaurant's original design, but optimize the website to create a better user experience. Our design was `presented to a panel` of UI/UX, web, and business development specialists to obtain design critques prior to our project development start in Sprint Wk 3.
 
 
 ## Timeline
 
 | Sprint | Description | Tools |
 | --- | --- | --- |
-| **Wk 1** *(5 days)* | Design a fully responsive website for Dante's Pizza & Cafe | `Figma` | 
-| **Wk 2** *(5 days)* | 1. Present the design among a panel of professionals <br/> 2. Incorporate design critques suggested by the panel | `Figma Presentation`, `PowerPoint` |
-| **Wk 3** *(3 days)* | Develop the website based on the prototype designed | `vanilla JavaScript`, `HTML`, `CSS` |
+| **Wk 1** <br/> *(5 days)* | Design a fully responsive website for Dante's Pizza & Cafe | `Figma` | 
+| **Wk 2** <br/> *(5 days)* | 1. Present the design among a panel of professionals <br/> 2. Incorporate design critques suggested by the panel | `Figma presentation`, `Microsoft PowerPoint` |
+| **Wk 3** <br/> *(3 days)* | Develop the website based on the prototype designed | `vanilla JavaScript`, `HTML`, `CSS` |
 <p align="right">Table 1: Project timeline work completed during 3 major sprints</p>
 
 > [!NOTE]
@@ -33,7 +33,7 @@ Our design was presented to a panel of UI/UX, web, and business development spec
 ## Prototype
 
 Click [Prototype V 2](https://www.figma.com/proto/IZ1IJ8tUWBsdXfP2lMetDl/Business-Redesign-Rework?type=design&node-id=1-605&t=6aVrKEGjnJBa0F2p-1&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A605&mode=design) 
-to visit the **final Figma prototype design**.
+to visit the **final Figma prototype design**. Design critque from the panel presentation was incorporated into this version.
 - *Notable features expanded to include updated contact form, additional icons, enhanced banner logo, & improved imagery.*
 
 Click [Prototype V 1](https://www.figma.com/proto/jL80hvy3MCaoqOMIm4Ocbz/Weather-App---Ver.-1?type=design&t=zIhP92ZA2ElktHf1-1&scaling=min-zoom&page-id=0%3A1&node-id=69-218&starting-point-node-id=69%3A218&show-proto-sidebar=1&mode=design)
