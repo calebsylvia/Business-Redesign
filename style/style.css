@@ -80,6 +80,18 @@ nav{
 
 /* History Section */
 
+
+.specDeals{
+    height: 500px;
+    font-family: 'Arvo', serif;
+}
+
+.weekBox{
+    width: 70%;
+    height: 50%;
+    padding-top: 90px;
+}
+
 .history{
     color: #FDFFF0;
     background-color: #1E1200;
@@ -142,6 +154,9 @@ footer{
     scroll-behavior: smooth;
 }
 
+/* .topBtn{
+    position: fixed;
+} */
 
 /* Catering */
 
@@ -201,6 +216,45 @@ footer{
 
 .genInfo a:root{
     scroll-behavior: smooth;
+}
+
+.timeLine {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+.timeLine:before {
+    content: '';
+    position: absolute;
+    width: 80%;
+    top: 50%;
+    left: 10%;
+    height: 3px;
+    margin-top: -13px;
+    background: black;
+}
+
+.lineCont::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: #970c10;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.topBox{
+    top: 0;
+}
+
+.botBox{
+    top: 50%;
+}
+
+.timeLine img{
+    width: 50px !important;
 }
 
 
