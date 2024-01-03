@@ -243,6 +243,13 @@ footer{
     background: black;
 }
 
+.lineCont::before{
+  padding: 40px 10px;
+  position: relative;
+  background-color: inherit;
+  height: 50%;
+}
+
 .lineCont::after {
     content: '';
     position: absolute;
@@ -251,6 +258,7 @@ footer{
     background-color: #970c10;
     border-radius: 50%;
     z-index: 1;
+
 }
 
 .topBox{
@@ -261,8 +269,8 @@ footer{
     top: 50%;
 }
 
-.timeLine img{
-    width: 50px !important;
+.content img{
+    width: 30px !important;
 }
 
 
