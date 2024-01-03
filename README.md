@@ -3,16 +3,16 @@
 
 **Name(s):** Elizabeth Trotter & Caleb Sylvia
 
-> **Project Description:** This was a partner project where we `redesigned` the `existing website` of a `local business` in our community. The overall goal was to keep the personality from the restaurant's original design, but optimize the website to create a better user experience. Our design was `presented to a panel` of UI/UX, web, and business development specialists to obtain design critques prior to our project development start in Sprint Week 3.
+> **Project Description:** This was a partner project where we `redesigned` the `existing website` of a `local business` in our community. The overall goal was to keep the personality from Dantes Pizza & Cafe's original design, but optimize the website to create a better user experience. Our design was `presented to a panel` of UI/UX, web, and business development specialists to obtain design critques prior to our project development start in Sprint Week 3.
 
 
 ## Timeline
 
 | Sprint | Description | Tools |
 | --- | --- | --- |
-| **Week 1** <br/> *5 days* | Design a fully responsive website for Dante's Pizza & Cafe | `Figma` | 
+| **Week 1** <br/> *5 days* | Design a fully responsive website for **Dante's Pizza & Cafe** | `Figma` | 
 | **Week 2** <br/> *5 days* | 1. Present the design among a panel of professionals <br/> 2. Incorporate design critques suggested by the panel | `Figma presentation`, `Microsoft PowerPoint` |
-| **Week 3** <br/> *~3 days* | Develop the website based on the prototype designed | `vanilla JavaScript`, `HTML`, `CSS` |
+| **Week 3** <br/> *3 days* | Develop the website based on the prototype designed | `vanilla JavaScript`, `HTML`, `CSS` |
 <p align="right">Table 1: Project timeline work completed during 3 major sprints</p>
 
 > [!NOTE]
