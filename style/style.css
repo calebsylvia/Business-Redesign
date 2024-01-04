@@ -11,6 +11,12 @@ Ivory - #FDFFF0
 Dark Red - #970C10
 */
 
+/* Overflow */
+body {
+    overflow-x: hidden;
+    /* Hide horizontal scrollbar */
+}
+
 /* Universal */
 
 body{
@@ -45,6 +51,36 @@ body{
     padding-right: 80px;
 }
 
+/* Font Size */
+.font-34 {
+    font-size: 34px;
+}
+
+.font-22 {
+    font-size: 22px;
+}
+
+.font-21 {
+    font-size: 21px;
+}
+
+.font-20 {
+    font-size: 20px;
+}
+
+.font-19 {
+    font-size: 19px;
+}
+
+.font-18 {
+    font-size: 18px;
+}
+
+.font-12 {
+    font-size: 12px;
+}
+
+/* HOME PAGE */
 /* Navbar */
 nav{
    background-color: #1E1200;
@@ -62,6 +98,11 @@ nav{
     color: #FDFFF0;
     font-family: 'Arvo', serif;
     font-weight: 700;
+}
+
+.border-link:hover {
+    color: #FDFFF0;
+    border-bottom: solid 1px #FDFFF0;
 }
 
 .orderBtn{
@@ -100,8 +141,12 @@ nav{
     margin: auto;
 }
 
-/* Call to Action Row */
+/* Carousel - did this work? lol*/
+a:root {
+    scroll-behavior: smooth;
+}
 
+/* Call to Action Row */
 .callToAction{
     background-color: #807555;
     color: #FDFFF0;
@@ -109,49 +154,104 @@ nav{
     border-bottom: 20px solid #1E1200;
 }
 
+.border-right {
+    margin: 20px 0 20px 0;
+    border-right: solid 3px #FDFFF0;
+}
 
-/* History Section */
+.letter-spacing {
+    letter-spacing: 0.75px;
+}
 
+.action-a {
+    color: #FDFFF0;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
 
-.specDeals{
-    height: 500px;
+/* Weekly Specials */
+.specDealsUpdated {
+    height: 570px;
     font-family: 'Arvo', serif;
 }
 
-.weekBox{
-    width: 70%;
+.weekBoxUpdated {
+    width: 100%;
     height: 50%;
-    padding-top: 90px;
 }
 
+.line-specials {
+    line-height: 18px;
+}
+
+.letter-specials {
+    letter-spacing: 0.35px;
+}
+
+/* History Section */
 .history{
     color: #FDFFF0;
     background-color: #1E1200;
     font-family: 'Arvo', serif;
 }
 
-/* Hours and Location */
+.history-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
+.history-box {
+    padding: 150px 150px;
+}
+
+.small-text {
+    padding-top: 60px;
+    letter-spacing: 0.35px;
+    font-weight: 300;
+}
+
+.small-text a {
+    color: #887D5D;
+    font-size: 21px;
+    font-weight: 800;
+}
+
+.bolder-history {
+    font-weight: 600;
+}
+
+/* Hours and Location */
 .openTimes{
     font-family: 'Arvo', serif;
 }
 
-/* Hiring Section */
+.weekday-col {
+    padding-left: 250px;
+}
 
-.hiring{
-    height: 300px;
+/* Hiring Section */
+.hiringUpdated{
+    height: 500px;
     width: 100%;
     background-image: url("../assets/hiring.png");
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     border-top: 20px solid #1E1200;
 }
 
-.hireBox{
+.hireBoxUpdated{
     background-color: black;
     opacity: 60%;
-    width: 250px;
-    height: 150px;
+    width: 450px;
+    height: 200px;
+    border-radius: 5px;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 50px;
+    padding-top: 40px;
 }
 
 .hireTxt{
@@ -160,23 +260,18 @@ nav{
 }
 
 /* Footer */
-
-
 footer{
     background-color: #1E1200;
     color: #FDFFF0;
     text-align: center;
 }
 
-/* .footerIcons{
-    width: 50px !important;
-    display: inline-block;
-} */
+.footer-line-sp {
+    line-height: 12px
+}
 
 
-/* Menu */
-
-
+/* MENU */
 .topBtn{
     border: none;
     background-color: transparent;
@@ -239,8 +334,7 @@ footer{
 
 } */
 
-/* Catering */
-
+/* CATERING */
 .caterHero{
     background-image: url('../assets/al-elmes-ULHxWq8reao-unsplash.png');
     background-repeat: no-repeat;
@@ -278,9 +372,7 @@ th{
 }
 
 
-
-/* Banquet */
-
+/* BANQUET */
 .banqHero{
     background-image: url("../assets/pexels-mat-brown-1395964.png");
     background-repeat: no-repeat;
@@ -398,8 +490,7 @@ th{
 }
 
 
-/* Contact */
-
+/* CONTACT */
 .contHero{
     background-image: url('../assets/pexels-ketut-subiyanto-4559707.png');
     background-repeat: no-repeat;
@@ -422,6 +513,28 @@ th{
 .submitBtn{
     background-color: #807555;
     border: none;
-    border-radius: 7px;
+    border-radius: 5px;
     color: #FDFFF0;
+}
+
+label {
+    padding: 40px 0 15px 2px !important;
+}
+
+input {
+    background-color: #FDFFF0;
+    border: 1.5px solid #1E1200;
+    border-radius: 5px;
+    height: 50px;
+    padding: 0px 12px !important;
+}
+
+textarea {
+    background-color: #FDFFF0;
+    border: 1.5px solid #1E1200;
+    border-radius: 5px;
+}
+
+.padding-btm {
+    padding-bottom: 170px
 }

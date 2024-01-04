@@ -1,169 +1,35 @@
-/* Overflow */
-body {
-    overflow-x: hidden;
-    /* Hide horizontal scrollbar */
-}
+
 
 /* Universal */
-/* Font Size */
-.font-34 {
-    font-size: 34px;
-}
 
-.font-22 {
-    font-size: 22px;
-}
-
-.font-21 {
-    font-size: 21px;
-}
-
-.font-20 {
-    font-size: 20px;
-}
-
-.font-19 {
-    font-size: 19px;
-}
-
-.font-18 {
-    font-size: 18px;
-}
-
-.font-12 {
-    font-size: 12px;
-}
 
 /* Navbar */
-.border-link:hover {
-    color: #FDFFF0;
-    border-bottom: solid 1px #FDFFF0;
-}
 
-/* Carousel - did this work? lol*/
-a:root {
-    scroll-behavior: smooth;
-}
+
+
 
 /* Call to Action */
-.border-right {
-    margin: 20px 0 20px 0;
-    border-right: solid 3px #FDFFF0;
-}
 
-.letter-spacing {
-    letter-spacing: 0.75px;
-}
 
-.action-a {
-    color: #FDFFF0;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-}
 
-/* Weekly Specials */
-.specDealsUpdated {
-    height: 570px;
-    font-family: 'Arvo', serif;
-}
 
-.weekBoxUpdated {
-    width: 100%;
-    height: 50%;
-}
-
-.line-specials {
-    line-height: 18px;
-}
-
-.letter-specials {
-    letter-spacing: 0.35px;
-}
 
 /* History */
-.history-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
 
-.history-box {
-    padding: 150px 150px;
-}
-
-.small-text {
-    padding-top: 60px;
-    letter-spacing: 0.35px;
-    font-weight: 300;
-}
-
-.small-text a {
-    color: #887D5D;
-    font-size: 21px;
-    font-weight: 800;
-}
-
-.bolder-history {
-    font-weight: 600;
-}
 
 /* Hours & Location */
-.weekday-col {
-    padding-left: 250px;
-}
+
 
 /* Now Hiring */
-.hireBoxUpdated{
-    background-color: black;
-    opacity: 60%;
-    width: 450px;
-    height: 200px;
-    border-radius: 5px;
-    position: absolute;
-    margin-top: 150px;
-    margin-left: 50px;
-    padding-top: 40px;
-}
 
-.hiringUpdated{
-    height: 500px;
-    width: 100%;
-    background-image: url("../assets/hiring.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-top: 20px solid #1E1200;
-}
+
+
 
 /* Footer */
-.footer-line-sp {
-    line-height: 12px
-}
+
 
 /* Contact */
 /* label {
     display: flex;
     flex-direction: column;
   } */
-label {
-    padding: 40px 0 15px 2px !important;
-}
-
-input {
-    background-color: #FDFFF0;
-    border: 1.5px solid #1E1200;
-    border-radius: 5px;
-    height: 50px;
-    padding: 0px 12px !important;
-}
-
-textarea{
-    background-color: #FDFFF0;
-    border: 1.5px solid #1E1200;
-    border-radius: 5px;
-}
-
-.padding-btm {
-    padding-bottom: 170px
-}
