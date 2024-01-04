@@ -46,6 +46,8 @@ a:root {
 .action-a {
     color: #FDFFF0;
     text-decoration: none;
+    display: flex;
+    align-items: center;
 }
 
 /* Weekly Specials */
