@@ -89,7 +89,7 @@ nav{
 .halfLine{
     background-color: #807555;
     height: 2px;
-    width: 50%;
+    width: 90%;
     opacity: 90% !important;
     border-radius: 10px;
     border: none;
@@ -214,9 +214,9 @@ footer{
     padding-top: 50px;
 }
 
-.topBtn{
+/* .topBtn{
 
-}
+} */
 
 /* Catering */
 
@@ -233,10 +233,16 @@ footer{
 
 .caterBox{
     background-color: black;
-    opacity: 70%;
-    width: 35%;
-    height: 40%;
+    width: 50%;
+    height: 50%;
+    transform: translate(0, 50%);
+    color: #FDFFF0;
 }
+
+.caterTxt{
+    width: 85%;
+}
+
 
 /* Banquet */
 
@@ -253,17 +259,17 @@ footer{
 
 .banqBox{
     background-color: black;
-    opacity: 70%;
-    width: 35%;
-    height: 40%;
+    opacity: 0.8;
+    width: 50%;
+    height: 50%;
 }
 
 .heroTxt{
     color: #FDFFF0;
     font-family: 'Arvo', serif;
-    font-size: 700;
     text-align: center;
-
+    opacity: 100% !important;
+    padding-top: 135px;
 }
 
 .banqRow{
@@ -274,8 +280,22 @@ footer{
     font-family: 'Arvo', serif;
 }
 
+.genInfo{
+    width: 75%;
+}
+
+.genInfo a{
+    color: #970c10;
+}
+
 .genInfo a:root{
     scroll-behavior: smooth;
+}
+
+.banqTime{
+    width: 85%;
+    font-family: 'Arvo', serif;
+    font-weight: bold;
 }
 
 .timeLine {
@@ -327,6 +347,7 @@ footer{
 
 
 
+
 .poliTxt p{
     color: #970c10;
     font-family: 'Arvo', serif;
@@ -334,9 +355,12 @@ footer{
 }
 
 .policy li{
-    font-family: 'Fira Sans', sans-serif;
+    line-height: 3;
 }
 
+.policy{
+    margin: 0 auto;
+}
 
 /* Contact */
 
@@ -363,5 +387,4 @@ footer{
     border: none;
     border-radius: 7px;
     color: #FDFFF0;
-
 }
