@@ -409,6 +409,7 @@ th{
 
 .genInfo{
     width: 75%;
+    padding: 75px 0px;
 }
 
 .genInfo a{
@@ -472,6 +473,12 @@ th{
     width: 30px !important;
 }
 
+.banqPad{
+    padding: 50px 0px;
+    width: 75%;
+}
+
+
 
 
 
@@ -483,12 +490,12 @@ th{
 
 .policy li{
     line-height: 3;
+
 }
 
-.policy{
-    margin: 0 auto;
-}
+.policy ul{
 
+}
 
 /* CONTACT */
 .contHero{
