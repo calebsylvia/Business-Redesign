@@ -133,12 +133,20 @@ nav{
 
 .halfLine{
     background-color: #807555;
-    height: 2px;
+    height: 3px;
     width: 90%;
     opacity: 90% !important;
     border-radius: 10px;
     border: none;
     margin: auto;
+}
+
+.halfline-left-pad {
+    padding-left: 170px;
+}
+
+.halfline-right-pad {
+    padding-right: 170px;
 }
 
 /* Carousel - did this work? lol*/
