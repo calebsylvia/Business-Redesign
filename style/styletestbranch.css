@@ -6,6 +6,14 @@ body {
 
 /* Universal */
 /* Font Size */
+.font-34 {
+    font-size: 34px;
+}
+
+.font-21 {
+    font-size: 21px;
+}
+
 .font-20 {
     font-size: 20px;
 }
@@ -83,16 +91,45 @@ a:root {
 .small-text {
     padding-top: 60px;
     letter-spacing: 0.35px;
+    font-weight: 300;
 }
 
 .small-text a {
     color: #887D5D;
-    font-size: 20px;
+    font-size: 21px;
+    font-weight: 800;
+}
+
+.bolder-history {
+    font-weight: 600;
 }
 
 /* Hours & Location */
 .weekday-col {
     padding-left: 250px;
+}
+
+/* Now Hiring */
+.hireBoxUpdated{
+    background-color: black;
+    opacity: 60%;
+    width: 450px;
+    height: 200px;
+    border-radius: 5px;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 50px;
+    padding-top: 40px;
+}
+
+.hiringUpdated{
+    height: 500px;
+    width: 100%;
+    background-image: url("../assets/hiring.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 20px solid #1E1200;
 }
 
 /* Footer */
