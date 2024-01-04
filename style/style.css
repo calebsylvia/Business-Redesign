@@ -413,9 +413,10 @@ th{
 
 .contBox{
     background-color: black;
-    opacity: 70%;
-    width: 35%;
-    height: 40%;
+    width: 50%;
+    height: 50%;
+    transform: translate(0, 50%);
+    border-radius: 5px;
 }
 
 .submitBtn{

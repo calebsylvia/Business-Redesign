@@ -10,6 +10,10 @@ body {
     font-size: 34px;
 }
 
+.font-22 {
+    font-size: 22px;
+}
+
 .font-21 {
     font-size: 21px;
 }
@@ -135,4 +139,31 @@ a:root {
 /* Footer */
 .footer-line-sp {
     line-height: 12px
+}
+
+/* Contact */
+/* label {
+    display: flex;
+    flex-direction: column;
+  } */
+label {
+    padding: 40px 0 15px 2px !important;
+}
+
+input {
+    background-color: #FDFFF0;
+    border: 1.5px solid #1E1200;
+    border-radius: 5px;
+    height: 50px;
+    padding: 0px 12px !important;
+}
+
+textarea{
+    background-color: #FDFFF0;
+    border: 1.5px solid #1E1200;
+    border-radius: 5px;
+}
+
+.padding-btm {
+    padding-bottom: 170px
 }

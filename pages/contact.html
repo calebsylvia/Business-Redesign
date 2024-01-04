@@ -58,44 +58,90 @@
 
   <!-- Contact Hero Image -->
   <div class="container-fluid contHero">
-    <div class="container contBox">
-      <h3 class="heroTxt">CONTACT</h3>
+    <div class="container contBox opacity-75">
+      <div class="row heroTxt">
+        <h3 class="fw-bold">CONTACT</h3>
+      </div>
+    </div>
+  </div>
+
+  <!-- Call to Action Row -->
+  <div id="call-to-action" class="container-fluid">
+    <div class="row callToAction">
+      <a class="action-a w-50 border-right" href="http://maps.google.com/maps?q=9305+Thornton+Rd,+Stockton,+CA+95209"
+        target="_blank">
+        <div class="col d-flex align-items-center">
+          <div class="col-5 d-flex justify-content-end pe-1">
+            <img src="../assets/MapPinLine.png" alt="Moped" />
+          </div>
+          <div class="col">
+            <div class="row w-50 text-center mt-2">
+              <p class="action-hover letter-spacing arvo fw-bold my-1">9305 Thornton Rd.</p>
+              <p class="action-hover letter-spacing arvo fw-bold">Stockton, CA 95209</p>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a class="action-a w-50" href="tel:2094740221">
+        <div class="col d-flex align-items-center">
+          <div class="col-5 d-flex justify-content-end pe-1">
+            <img src="../assets/Vector_phone.png" alt="Phone" />
+          </div>
+          <div class="col">
+            <div class="row w-50 text-center mt-2">
+              <p class="letter-spacing arvo fw-bold mt-1">CALL (209) 474 - 0221</p>
+            </div>
+          </div>
+        </div>
+      </a>
     </div>
   </div>
 
   <!-- Heading -->
-
-  <div class="row">
-    <div class="col">
+  <div class="row mt-5 py-5">
+    <div class="col mt-5 pt-5">
       <hr class="halfLine">
     </div>
-    <div class="col">
-      <p>QUESTIONS, COMMENTS, OR CONCERNS?</p>
-      <br>
-      <p>Use our contact form to get in touch</p>
-      <img src="../assets/Chatdots.png" alt="Chat Dots Icon">
+    <div class="col text-center pt-4">
+      <p class="arvo font-22 fw-bold">QUESTIONS, COMMENTS, OR CONCERNS?</p>
+      <div class="d-inline-flex pt-1">
+        <p class="fira font-20 fw-bold">Use our contact form to get in touch</p>
+        <img class="ps-3 pb-1" src="../assets/Chatdots.png" alt="Chat Dots Icon" style="height: 2rem;">
+      </div>
     </div>
-    <div class="col">
+    <div class="col mt-5 pt-5">
       <hr class="halfLine">
     </div>
   </div>
 
 
   <!-- Contact Form -->
-
-  <form action="#">
-    <label for="name">First Name *</label>
-    <input type="text" id="name" name="name" required>
-    <label for="email">Email *</label>
-    <input type="text" id="email" name="email" required>
-    <label for="subject">Subject *</label>
-    <input type="text" id="subject" name="subject" required>
-    <label for="message">Message *</label>
-    <input type="text" id="message" name="message" required>
-    <input type="submit" class="submitBtn">
-  </form>
-
-
+  <div class="container arvo font-18 fw-bold padding-btm">
+    <div class="row">
+      <div class="col px-0">
+        <label for="name">Name <span class="red">*</span></label>
+        <input type="text" id="name" name="name" required style="width: 100%;">
+      </div>
+      <div class="col pe-0">
+        <label for="email">Email <span class="red">*</span></label>
+        <input type="text" id="email" name="email" required style="width: 100%;">
+      </div>
+    </div>
+    <div class="row">
+      <label for="subject">Subject <span class="red">*</span></label>
+      <input type="text" id="subject" name="subject" required>
+    </div>
+    <div class="row">
+      <label for="message">Message <span class="red">*</span></label>
+      <textarea id="message" name="message" rows="15" required></textarea>
+    </div>
+    <div class="row pt-3 text-end">
+      <p class="red">* required field</p>
+    </div>
+    <div class="row pt-4 w-25">
+      <input type="submit" class="submitBtn fira font-18 fw-bold" value="SUBMIT">
+    </div>
+  </div>
 
 
   <!-- Footer -->
