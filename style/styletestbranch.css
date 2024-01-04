@@ -1,11 +1,54 @@
+/* Universal */
+/* Font Size */
+.font-20 {
+    font-size: 20px;
+}
+
+.font-18 {
+    font-size: 18px;
+}
+
 /* Navbar */
 .border-link:hover {
     color: #FDFFF0;
     border-bottom: solid 1px #FDFFF0;
 }
 
+/* Carousel - did this work? lol*/
+a:root{
+    scroll-behavior: smooth;
+}
+
 /* Call to Action */
 .border-right {
     margin: 20px 0 20px 0;
     border-right: solid 3px #FDFFF0;
+}
+
+.letter-spacing {
+    letter-spacing: 0.75px;
+}
+
+.action-a {
+    color: #FDFFF0;
+    text-decoration: none;
+}
+
+/* Weekly Specials */
+.specDealsUpdated{
+    height: 570px;
+    font-family: 'Arvo', serif;
+}
+
+.weekBoxUpdated{
+    width: 100%;
+    height: 50%;
+}
+
+.line-specials {
+    line-height: 18px;
+}
+
+.letter-specials {
+    letter-spacing: 0.35px;
 }
