@@ -65,13 +65,13 @@ nav{
 }
 
 .orderBtn{
-    border-radius: 8px;
+    border-radius: 3px;
     border: none;
     background-color: #970c10;
     color: #FDFFF0;
     font-weight: 700;
-    width: 150px;
-    height: 50px;
+    width: 140px;
+    height: 45px;
     padding: 0 !important;
 }
 
@@ -168,10 +168,10 @@ footer{
     text-align: center;
 }
 
-.footerIcons{
+/* .footerIcons{
     width: 50px !important;
     display: inline-block;
-}
+} */
 
 
 /* Menu */
