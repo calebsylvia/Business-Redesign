@@ -933,6 +933,17 @@ textarea {
     }
 }
 
+@media screen and (max-width: 1285px) {
+    .font-22 {
+        font-size: 20px;
+    }
+
+    .halfline-resize {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
 @media screen and (max-width: 991px) {
     .nav-logo {
         height: 10rem !important;
