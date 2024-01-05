@@ -24,7 +24,7 @@
 
 ## Website Preview
 
-![Website preview](./)
+![Website preview](./assets/wesbite-preview.png)
 <p align="right">Figure 1: Snapshot of staging website for development</p>
 
 
