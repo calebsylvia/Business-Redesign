@@ -70,24 +70,19 @@
 
   <div class="container-fluid">
     <div class="row banqRow">
-      <div class="col">
-
-      </div>
-      <div class="col">
-        <div class="col">
-          <img src="../assets/Vector_phone.png" alt="Phone Icon">
-        </div>
-        <div class="col">
-          <div class="row">
-            <p>CALL (209)474-0221</p>
+      <a class="action-a w-50 border-call mx-auto" href="tel:2094740221">
+        <div class="col d-flex align-items-center">
+          <div class="col-5 d-flex justify-content-end pe-1">
+            <img src="../assets/Vector_phone.png" alt="Phone" />
           </div>
-          <div class="row">
-            <p>TO RESERVE</p>
+          <div class="col">
+            <div class="row w-50 text-center mt-2">
+              <p class="letter-spacing arvo fw-bold my-1">CALL (209) 474 - 0221</p>
+              <p>TO RESERVE</p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col">
-
+      </a>
       </div>
     </div>
   </div>
@@ -149,8 +144,33 @@
   <hr class="fullLine">
   <!-- Banquet Timeline -->
 
-  <div class="container-fluid">
+  <div class="container timeline timeBox">
+    <div class="timelineLine">
+      <span class="timeline-innerline"></span>
+    </div>
 
+    <ul class="arvo fw-bold text-center">
+      <li>
+        <span class="timeline-point"></span>
+        <span class="iconTop"><img src="../assets/Confirm.png" alt="Confirmation Icon"></span>
+        <p class="txtTop">Call to Confirm Date + <br>$200 Deposit</p>
+      </li>
+      <li>
+        <span class="timeline-point"></span>
+        <span class="iconBot"><img src="../assets/Money.png" alt="Money Icon"></span>
+        <p class="txtBot">2 Weeks Prior to Event 50% Deposit of Estimated Bill</p>
+      </li>
+      <li>
+        <span class="timeline-point"></span>
+        <span class="iconTop"><img src="../assets/Guests.png" alt="Guests Icon"></span>
+        <p class="txtTop">1 Week Prior to Event Number of Guests in Attendance</p>
+      </li>
+      <li>
+        <span class="timeline-point"></span>
+        <span class="iconBot"><img src="../assets/Confetti.png" alt="Confetti Icon"></span>
+        <p class="txtBot">Reservation Day <br>Enjoy!</p>
+      </li>
+    </ul>
   </div>
 
 
@@ -159,7 +179,9 @@
   <!-- Banquet Policies -->
 
   <div class="container-fluid poliTxt banqPad" id="banqPolicy">
+    <div class="row">
     <p class="fw-bold">BANQUET POLICIES</p>
+    <div class="col">
     <ul class="policy fira fw-bold">
       <li>Cancellation only valid 30 days prior to event</li>
       <li>Dante’s will increase food served by 5% standard and will only deduct up to 5% if guest count is lower than
@@ -169,6 +191,8 @@
       <li>Decorations must be approved and passed by Dante’s</li>
       <li>All events will be automatically charged an 18% gratuity and sales tax</li>
     </ul>
+  </div>
+  </div>
   </div>
 
 
@@ -207,6 +231,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
+    <script src="../scripts/timelineScript.js"></script>
 </body>
 
 </html>
