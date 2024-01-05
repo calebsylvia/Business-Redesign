@@ -790,8 +790,9 @@ th {
     }
 
     .timelineLine {
-        width: 100%;
+        width: 75%;
         height: 4px;
+        margin: 0 auto;
     }
 }
 
@@ -1279,6 +1280,11 @@ textarea {
 
     .padMe{
         padding-left: 30px !important;
+    }
+
+    .timeBox{
+        margin-left: 75px !important;
+        margin-right: 10px !important;
     }
 }
 
