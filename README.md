@@ -7,11 +7,11 @@
 
 
 ## Peer Review
-Name: 
+Name: Zachary Dressel
 
-Comment(s):
+Comment(s): Website is immaculate. Code of the page is nice and concise, and updated images from the first to the second prototype make for a better looking website. One change should be made, however, in that the spacing of the menu items needs to be fixed to reflect the prototype, and the spacing of certain sections, such as the hours of operation, need to shrinked in order to be viewed easier. 
 
-Date/ Time: 
+Date/ Time: 1/5/24 10:43 AM
 
 
 ---
