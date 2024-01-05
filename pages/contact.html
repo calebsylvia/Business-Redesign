@@ -101,25 +101,27 @@
   </div>
 
   <!-- Heading -->
-  <div class="row mt-5 py-5">
-    <div class="col mt-5 pt-5 halfline-left-pad halfline-resize">
+  <div class="container-fluid contHead">
+  <div class="row mt-5 py-5 my-auto">
+    <div class="col mt-5 pt-5 my-auto">
       <hr class="halfLine">
     </div>
     <div class="col text-center pt-4">
       <p class="arvo font-22 fw-bold">QUESTIONS, COMMENTS, OR CONCERNS?</p>
       <div class="d-inline-flex pt-1">
-        <p class="fira font-20 fw-bold">Use our contact form to get in touch</p>
-        <img class="ps-3 pb-1" src="../assets/Chatdots.png" alt="Chat Dots Icon" style="height: 2rem;">
+        <p class="fira font-20 fw-bold smallBox">Use our contact form to get in touch</p>
+        <img id="chatDots" class="ps-3 pb-1 blockMe" src="../assets/Chatdots.png" alt="Chat Dots Icon" style="height: 2rem;">
       </div>
     </div>
-    <div class="col mt-5 pt-5 halfline-right-pad halfline-resize">
+    <div class="col mt-5 pt-5 my-auto">
       <hr class="halfLine">
     </div>
   </div>
+</div>
 
 
   <!-- Contact Form -->
-  <div class="container arvo font-18 fw-bold padding-btm">
+  <div class="container-fluid arvo font-18 fw-bold padding-btm">
     <div class="row">
       <div class="col px-0">
         <label for="name">Name <span class="red">*</span></label>
@@ -141,7 +143,7 @@
     <div class="row pt-3 text-end">
       <p class="red">* required field</p>
     </div>
-    <div class="row pt-4 w-25">
+    <div class="row pt-4 w-25 centerMe">
       <input type="submit" class="submitBtn fira font-18 fw-bold" value="SUBMIT">
     </div>
   </div>
@@ -185,6 +187,7 @@
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/989c4a6ea8.js" crossorigin="anonymous"></script>
+    <script src="../scripts/contactScript.js"></script>
 </body>
 
 </html>

@@ -325,6 +325,11 @@ footer {
     text-align: center;
 }
 
+.noBlue{
+    color:#FDFFF0 !important;
+    text-decoration: none !important;
+}
+
 .footer-line-sp {
     line-height: 12px
 }
@@ -895,6 +900,7 @@ textarea {
 }
 
 
+
 /* Media Queries */
 
 @media screen and (max-width: 1902px) {
@@ -1183,7 +1189,7 @@ textarea {
     }
 
     .topBtn {
-        right: 0px;
+        right: 12px;
     }
 
     .banqRow a {
@@ -1455,5 +1461,34 @@ textarea {
 
     .hours-box{
         width: 100%;
+    }
+
+    .centerMe{
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 476px){
+    .contHead p{
+        font-size: smaller;
+        margin-bottom: 10px ;
+    }
+
+    .contHead img{
+        width: 45px;
+        height: 25px !important;
+    }
+
+    .smallBox{
+        height: 70px;
+        width: 100px
+    }
+
+    .centerMe{
+        margin: 0 auto;
+    }
+
+    .blockMe{
+        display: none;
     }
 }
