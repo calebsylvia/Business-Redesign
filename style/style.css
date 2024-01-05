@@ -524,31 +524,31 @@ th {
 }
 
 .time1 {
-    width: 10px;
-    height: 10px;
-    top: 65px;
-    left: -7px;
+    width: 14px;
+    height: 14px;
+    top: -165px;
+    left: -130px;
 }
 
 .time2 {
-    width: 10px;
-    height: 10px;
-    top: 95px;
-    left: -166px;
+    width: 15px;
+    height: 15px;
+    top: -65px;
+    left: -130px;
 }
 
 .time3 {
-    width: 10px;
-    height: 10px;
-    top: 125px;
-    left: -7px;
+    width: 15px;
+    height: 15px;
+    top: 50px;
+    left: -130px;
 }
 
 .time4 {
-    width: 10px;
-    height: 10px;
-    top: 65px;
-    left: -7px;
+    width: 15px;
+    height: 15px;
+    top: 190px;
+    left: -130px;
 }
 
 .leftTxt1 {
@@ -559,8 +559,8 @@ th {
     color: #1E1200;
     font-size: 14px;
     position: absolute;
-    left: -190px;
-    top: 50px;
+    left: -300px;
+    top: -165px;
 }
 
 .rightTxt1 {
@@ -571,8 +571,8 @@ th {
     color: #1E1200;
     font-size: 14px;
     position: absolute;
-    left: -138px;
-    top: 80px;
+    left: -105px;
+    top: -75px;
 }
 
 .leftTxt2 {
@@ -583,8 +583,9 @@ th {
     color: #1E1200;
     font-size: 14px;
     position: absolute;
-    left: 20px;
-    top: 100px
+    left: -315px;
+    top: 40px;
+    width: 175px;
 }
 
 .rightTxt2 {
@@ -595,13 +596,15 @@ th {
     color: #1E1200;
     font-size: 14px;
     position: absolute;
+    top: 175px;
+    left: -105px;
 }
 
 .iconLeft1 {
     position: absolute;
     width: 34px;
-    top: 25px;
-    left: -127px;
+    top: -195px;
+    left: -235px;
     opacity: 0;
     transition: 1.5s;
     opacity: 100;
@@ -610,8 +613,8 @@ th {
 .iconLeft2 {
     position: absolute;
     width: 34px;
-    top: 60px;
-    left: -150px;
+    top: 20px;
+    left: -250px;
     opacity: 0;
     transition: 1.5s;
     opacity: 100;
@@ -620,8 +623,8 @@ th {
 .iconRight1 {
     position: absolute;
     width: 34px;
-    top: 60px;
-    left: -65px;
+    top: -95px;
+    left: -50px;
     opacity: 0;
     transition: 1.5s;
     opacity: 100;
@@ -630,8 +633,8 @@ th {
 .iconRight2 {
     position: absolute;
     width: 34px;
-    top: 30px;
-    left: -50px;
+    top: 145px;
+    left: -65px;
     opacity: 0;
     transition: 1.5s;
     opacity: 100;
@@ -639,10 +642,11 @@ th {
 
 .timelineLine {
     background: black;
+    height: 600px;
     width: 4px;
     border-radius: 12px;
     position: relative;
-    justify-self: end;
+    justify-self: center;
 }
 
 .timeline-point {
@@ -785,17 +789,6 @@ th {
     .timelineLine {
         width: 100%;
         height: 4px;
-    }
-
-    .timeline-innerline {
-        position: absolute;
-        background: black;
-        width: 0%;
-        height: 4px;
-        top: 0%;
-        left: 0%;
-        transition: 1s linear;
-        border-radius: 999px;
     }
 }
 
