@@ -1,4 +1,4 @@
-# Business Redesign <img src="./assets/Banner-logo.png" alt="Banner Logo for Dante's Pizza" style="height: 2rem;">
+# Business Redesign <img src="./favicon.png" alt="Icon for Dante's Pizza" style="height: 2rem;">
 
 
 **Project Team:** Elizabeth Trotter & Caleb Sylvia
