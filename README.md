@@ -1,4 +1,4 @@
-# Business Redesign <img src="./favicon.png" alt="Icon for Dante's Pizza" style="height: 1.5rem;">
+# Business Redesign <img src="./favicon.png" alt="Icon for Dante's Pizza" style="height: 1rem;">
 
 
 **Project Team:** Elizabeth Trotter & Caleb Sylvia
