@@ -1429,6 +1429,31 @@ textarea {
     td{
         padding: 20px 100px;
     }
+
+    .hours-pad-left-lg {
+        padding-left: 50px;
+    }
+}
+
+@media screen and (min-width: 1700px) {
+
+    .hours-pad-left-lg {
+        padding-left: 80px;
+    }
+}
+
+@media screen and (min-width: 1850px) {
+
+    .hours-pad-left-lg {
+        padding-left: 100px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+
+    .hours-pad-left-lg {
+        padding-left: 120px;
+    }
 }
 
 @media screen and (max-width:1440px) {
