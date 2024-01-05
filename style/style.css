@@ -438,6 +438,7 @@ footer {
     height: 50%;
     transform: translate(0, 50%);
     color: #FDFFF0;
+    border-radius: 5px;
 }
 
 .caterTxt {
@@ -475,6 +476,7 @@ th {
     width: 50%;
     height: 50%;
     transform: translate(0, 50%);
+    border-radius: 5px;
 }
 
 .heroTxtUpdated {
