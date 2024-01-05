@@ -14,9 +14,9 @@ Comment(s): Website is immaculate. Code of the page is nice and concise, and upd
 Date/ Time: 1/5/24 10:43 am
 
 **Issues Resolved:**
-- Menu item spacing 1/5/24 11:30 am
-- Added favicon to browser tab 1/5/24 12:00 pm
-- Hours & operation spacing 3:00 pm
+- Menu item spacing :white_check_mark: *1/5/24 11:30 am*
+- Added favicon to browser tab :white_check_mark: *1/5/24 12:00 pm*
+- Hours & operation spacing :white_check_mark: *1/5/24 3:00 pm*
 
 
 ---
