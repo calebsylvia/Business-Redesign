@@ -3,15 +3,13 @@
 
 **Project Team:** Elizabeth Trotter & Caleb Sylvia
 
-**Project Scope:** This was a partner project where we `redesigned` the `existing website` of a `local business` in our community. The overall goal was to keep the personality from **Dantes Pizza & Cafe's** original design, but optimize the website to create a better user experience. Our design was `presented to a panel` of UI/UX, web, and business development specialists to obtain design critques prior to our project development start in Sprint Week 3.
+**Project Scope:** This was a `partner project` where we `redesigned` the `existing website` of a `local business` in our community. The overall goal was to keep the personality from **Dantes Pizza & Cafe's** original design, but `optimize the website` to create a better `user experience`. Our design was `presented to a panel` of UI/UX, web, and business development specialists to obtain design critques prior to our project development start in Sprint Week 3.
 
 
 ## Peer Review
-> **Name:** Zachary Dressel
-
+> **Name:** Zachary Dressel **Date/ Time:** 1/5/24 10:43 am
+>
 > **Comment(s):** Website is immaculate. Code of the page is nice and concise, and updated images from the first to the second prototype make for a better looking website. One change should be made, however, in that the spacing of the menu items needs to be fixed to reflect the prototype, and the spacing of certain sections, such as the hours of operation, need to shrinked in order to be viewed easier. Also, for a minor change, add the favicon to the browser tab.
-
-> **Date/ Time:** 1/5/24 10:43 am
 
 **Issues Resolved:**
 - Menu item spacing :white_check_mark: *1/5/24 11:30 am*
