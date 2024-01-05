@@ -187,7 +187,7 @@ a:root {
     align-items: center;
 }
 
-.border-call {
+.border-call{
     border-left: 3px solid #FDFFF0;
     border-right: 3px solid #FDFFF0;
     margin: 20px 0px;
@@ -318,7 +318,7 @@ footer {
     background-color: transparent;
     z-index: 99;
     position: fixed;
-    right: 50px;
+    right: 30px;
     bottom: 20px;
     animation: fadeIn 2s;
 }
@@ -485,12 +485,11 @@ th {
 .timeBox {
     padding: 100px 0px 75px 0px !important;
     width: 80%;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .timeline {
-    margin-top: 35px;
     padding: 15px;
     display: grid;
     grid-template-columns: 40% auto;
@@ -513,25 +512,122 @@ th {
     padding: 25px;
 }
 
-.timeline li p {
+.time1{
+    width: 10px;
+    height: 10px;
+    top: 65px;
+    left: -7px;
+}
+
+.time2{
+    width: 10px;
+    height: 10px;
+    top: 95px;
+    left: -166px;
+}
+
+.time3{
+    width: 10px;
+    height: 10px;
+    top: 125px;
+    left: -7px;
+}
+
+.time4{
+    width: 10px;
+    height: 10px;
+    top: 65px;
+    left: -7px;
+}
+
+.leftTxt1{
     padding: 0;
+    margin-top: 15px;
     transition: 1.5s;
     font-family: 'Arvo', serif;
     color: #1E1200;
     font-size: 14px;
+    position: absolute;
+    left: -190px;
+    top: 50px;
 }
 
-.icon {
+.rightTxt1{
+    padding: 0;
+    margin-top: 15px;
+    transition: 1.5s;
+    font-family: 'Arvo', serif;
+    color: #1E1200;
+    font-size: 14px;
+    position: absolute;
+    left: -138px;
+    top: 80px;
+}
+
+.leftTxt2{
+    padding: 0;
+    margin-top: 15px;
+    transition: 1.5s;
+    font-family: 'Arvo', serif;
+    color: #1E1200;
+    font-size: 14px;
+    position: absolute;
+    left: 20px;
+    top: 100px
+}
+
+.rightTxt2{
+    padding: 0;
+    margin-top: 15px;
+    transition: 1.5s;
+    font-family: 'Arvo', serif;
+    color: #1E1200;
+    font-size: 14px;
+    position: absolute;
+}
+
+.iconLeft1 {
+    position: absolute;
+    width: 34px;
+    top: 25px;
+    left: -127px;
+    opacity: 0;
+    transition: 1.5s;
+    opacity: 100;
+}
+
+.iconLeft2 {
+    position: absolute;
+    width: 34px;
+    top: 60px;
+    left: -150px;
+    opacity: 0;
+    transition: 1.5s;
+    opacity: 100;
+}
+
+.iconRight1 {
+    position: absolute;
+    width: 34px;
+    top: 60px;
+    left: -65px;
+    opacity: 0;
+    transition: 1.5s;
+    opacity: 100;
+}
+
+.iconRight2 {
     position: absolute;
     width: 34px;
     top: 30px;
     left: -50px;
     opacity: 0;
     transition: 1.5s;
+    opacity: 100;
 }
 
 .timelineLine {
-    background: #807555;
+    background: black;
     width: 4px;
     border-radius: 12px;
     position: relative;
@@ -543,22 +639,10 @@ th {
     position: absolute;
     border-radius: 50%;
     background: #970c10;
-    width: 8px;
-    height: 8px;
-    top: 30px;
-    left: -6px;
     transition: 1.5s ease;
 }
 
-.timeline-innerline {
-    position: absolute;
-    background: black;
-    width: 4px;
-    height: 0%;
-    top: 0%;
-    left: 0%;
-    transition: 1s linear;
-}
+
 
 @media screen and (min-width: 769px) {
     .timeline {
@@ -583,30 +667,105 @@ th {
         font-size: 18px;
     }
 
-    .iconTop {
+    .iconTop1 {
         opacity: 100%;
         transition: 1.5s;
         width: 34px;
-
         position: absolute;
-        top: -160px;
+        top: -150px;
         left: 40%;
     }
 
-    .iconBot {
+    .iconTop2 {
+        opacity: 100%;
+        transition: 1.5s;
+        width: 34px;
+        position: absolute;
+        top: -145px;
+        left: 40%;
+    }
+
+    .topTxt1{
+        opacity: 100%;
+        transition: 1.5s;
+        position: absolute;
+        top: -120px;
+        left: 22px;
+        font-size: 14px !important;
+    }
+
+    .topTxt2{
+        opacity: 100%;
+        transition: 1.5s;
+        position: absolute;
+        top: -135px;
+        font-size: 14px !important;
+    }
+
+    .botTxt1{
+        opacity: 100%;
+        transition: 1.5s;
+        position: absolute;
+        top: -35px;
+        left: -5px;
+        font-size: 14px !important;
+    }
+
+    .botTxt2{
+        opacity: 100%;
+        transition: 1.5s;
+        position: absolute;
+        font-size: 16px;
+        top: -40px;
+        left: 42px;
+        font-size: 14px !important;
+    }
+
+    .iconBot1 {
         opacity: 100%;
         transition: 1.5s;
         width: 50px;
-
         position: absolute;
-        top: 80px;
-        left: 40%;
+        top: 40px;
+        left: 35%;
     }
 
-    .timeline-point {
+    .iconBot2 {
+        opacity: 100%;
+        transition: 1.5s;
+        width: 50px;
+        position: absolute;
+        top: 35px;
+        left: 38%;
+    }
+
+    .time1 {
         width: 15px;
         height: 15px;
+        top: -40px;
+        left: 45%;
+        transition: 1.5s ease;
+    }
 
+    .time2{
+        width: 15px;
+        height: 15px;
+        top: -39px;
+        left: 45%;
+        transition: 1.5s ease;
+    }
+
+    .time3{
+        width: 15px;
+        height: 15px;
+        top: -39px;
+        left: 45%;
+        transition: 1.5s ease;
+    }
+
+    .time4{
+        width: 15px;
+        height: 15px;
         top: -40px;
         left: 45%;
         transition: 1.5s ease;
@@ -629,13 +788,6 @@ th {
     }
 }
 
-.topBox {
-    top: 0;
-}
-
-.botBox {
-    top: 50%;
-}
 
 .content img {
     width: 30px !important;
@@ -657,11 +809,16 @@ th {
 }
 
 .policy li {
-    line-height: 3;
-
+    line-height: 1;
+    padding-bottom: 25px;
 }
 
-.policy ul {}
+.policy{
+    padding-left: 0 !important;
+}
+
+
+
 
 /* CONTACT */
 .contHero {
@@ -690,6 +847,10 @@ th {
     color: #FDFFF0;
 }
 
+.submitBtn:hover{
+    background-color: #1E1200;
+}
+
 label {
     padding: 40px 0 15px 2px !important;
 }
@@ -711,6 +872,9 @@ textarea {
 .padding-btm {
     padding-bottom: 170px
 }
+
+
+/* Media Queries */
 
 @media screen and (max-width: 1902px) {
     .font-20 {
@@ -873,5 +1037,280 @@ textarea {
     .hiring-icon {
         height: 3.5rem;
         display: none;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1024px){
+    .topBtn{
+        right: 15px;
+    }
+
+    .caterBox{
+        width: 42vw;
+        height: 35vh; 
+    }
+
+    .banqRow a{
+        font-size: 14px;
+        text-wrap: nowrap;
+    }
+    
+    .phone{
+        padding-right: 5px;
+    }
+
+    .caterNote{
+        font-size: 18px;
+    }
+
+    .caterTxt{
+        font-size: 16px;
+    }
+
+    td{
+        padding: 20px 50px 20px 50px;
+    }
+
+    .banqTime p{
+        text-wrap: nowrap;
+    }
+
+    .timeline p{
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .callToAction a{
+        font-size: 14px;
+    }
+
+    .callToAction img{
+        width: 40px;
+    }
+
+    .phone{
+        width: 35px !important;
+    }
+
+    .topBtn{
+        right: 10px;
+    }
+
+    td{
+        padding: 15px 40px 15px 40px;
+    }
+
+    .caterTxt{
+        font-size: 14px;
+    }
+
+    .caterPad{
+        padding: 20px 0px;
+    }
+
+    .banqTime p{
+        text-wrap: nowrap;
+        font-size: 12px;
+    }
+
+    .timeline ul{
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .menuItems{
+        font-size: 12px;
+    }
+
+    .navBox{
+        width: 90%;
+    }
+
+    .navBox a{
+        font-size: 14px;
+    }
+
+    .callToAction a{
+        font-size: 12px;
+        text-wrap: nowrap;
+    }
+
+    .callToAction img{
+        width: 25px;
+    }
+
+    .phone{
+        width: 25px !important;
+        padding: 0 !important;
+    }
+    
+    .topBtn{
+        right: 0px;
+    }
+
+    .banqRow a{
+        font-size: 12px;
+        letter-spacing: normal;
+    }
+
+    .caterNote{
+        font-size: 12px !important;
+    }
+
+    td{
+        padding: 20px 10px;
+        font-size: 12px;
+    }
+
+    th{
+        font-size: 12px;
+    }
+
+    .caterTxt li{
+        list-style-type: none;
+    }
+
+    .caterTxt ul{
+        padding: 0px;
+    }
+
+    .caterPad{
+        padding: 15px 0px;
+    }
+
+    .poliTxt{
+        font-size: 10px;
+    }
+
+    .banqTime p{
+        font-size: 9px;
+        text-wrap: wrap;
+    }
+
+    .days p{
+        margin-bottom: 22px;
+    }
+
+    .noPad{
+        padding: 0 !important;
+    }
+
+    .genInfo{
+        font-size: small;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .menuItems{
+        font-size: 10px;
+    }
+
+    .callToAction a{
+        font-size: 10px;
+    }
+
+    .callToAction img{
+        width: 25px;
+    }
+
+    .caterBox{
+        width: 20vh;
+    }
+
+    td{
+        font-size: 8px;
+        padding: 15px 12px;
+    }
+
+    th{
+        font-size: 8px;
+    }
+
+    .banqTime p{
+        font-size: 8px;
+        text-wrap: wrap;
+    }
+
+    .days p{
+        margin-bottom: 21px;
+    }
+}
+
+
+@media screen and (min-width: 1440px){
+    .topTxt1{
+        left: 42px;
+        top: -130px;
+        font-size: 18px !important;
+    }
+
+    .topTxt2{
+        top: -130px;
+        left: 5px;
+        font-size: 18px !important;
+    }
+
+    .botTxt2{
+        font-size: 18px !important;
+        left: 65px;
+        line-height: normal;
+    }
+
+    .botTxt1{
+        font-size: 18px !important;
+        top: -40px;
+        left: 3px;
+    }
+
+    .iconTop1{
+        left: 120px;
+    }
+
+    .iconTop2{
+        left: 118px;
+    }
+    
+    .iconBot1{
+        left: 112px;
+        top: 50px;
+    }
+
+    .iconBot2{
+        left: 116px;
+        top: 40px;
+    }
+
+    .banqRow p{
+        text-wrap: nowrap;
+    }
+
+    .padMe{
+        padding-left: 250px !important;
+        text-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:1440px){
+    .padMe{
+        padding-left: 300px !important;
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width: 1025px){
+    .padMe{
+        padding-left: 150px !important;
+    }
+}
+
+@media screen and (max-width: 769px){
+    .padMe{
+        padding-left: 75px !important;
     }
 }
