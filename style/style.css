@@ -516,7 +516,7 @@ th{
     width: 8px;
     height: 8px;
     top: 30px;
-    left: 6px;
+    left: -6px;
     transition: 1.5s ease;
   }
 .timeline-innerline {
