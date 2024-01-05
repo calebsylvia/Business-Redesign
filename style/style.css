@@ -89,6 +89,16 @@ body {
 nav {
     background-color: #1E1200;
     height: 120px;
+    z-index: 1;
+}
+
+.navbar-collapse {
+    background-color: #1E1200;
+    /* Set the background color to match the navbar */
+}
+
+.custom-toggler {
+    border: none;
 }
 
 .navbar-brand {
@@ -125,6 +135,7 @@ nav {
     color: #970c10;
 }
 
+/* Line Breaks */
 .fullLine {
     background-color: #807555;
     height: 2px;
@@ -187,7 +198,7 @@ a:root {
     align-items: center;
 }
 
-.border-call{
+.border-call {
     border-left: 3px solid #FDFFF0;
     border-right: 3px solid #FDFFF0;
     margin: 20px 0px;
@@ -512,35 +523,35 @@ th {
     padding: 25px;
 }
 
-.time1{
+.time1 {
     width: 10px;
     height: 10px;
     top: 65px;
     left: -7px;
 }
 
-.time2{
+.time2 {
     width: 10px;
     height: 10px;
     top: 95px;
     left: -166px;
 }
 
-.time3{
+.time3 {
     width: 10px;
     height: 10px;
     top: 125px;
     left: -7px;
 }
 
-.time4{
+.time4 {
     width: 10px;
     height: 10px;
     top: 65px;
     left: -7px;
 }
 
-.leftTxt1{
+.leftTxt1 {
     padding: 0;
     margin-top: 15px;
     transition: 1.5s;
@@ -552,7 +563,7 @@ th {
     top: 50px;
 }
 
-.rightTxt1{
+.rightTxt1 {
     padding: 0;
     margin-top: 15px;
     transition: 1.5s;
@@ -564,7 +575,7 @@ th {
     top: 80px;
 }
 
-.leftTxt2{
+.leftTxt2 {
     padding: 0;
     margin-top: 15px;
     transition: 1.5s;
@@ -576,7 +587,7 @@ th {
     top: 100px
 }
 
-.rightTxt2{
+.rightTxt2 {
     padding: 0;
     margin-top: 15px;
     transition: 1.5s;
@@ -685,7 +696,7 @@ th {
         left: 40%;
     }
 
-    .topTxt1{
+    .topTxt1 {
         opacity: 100%;
         transition: 1.5s;
         position: absolute;
@@ -694,7 +705,7 @@ th {
         font-size: 14px !important;
     }
 
-    .topTxt2{
+    .topTxt2 {
         opacity: 100%;
         transition: 1.5s;
         position: absolute;
@@ -702,7 +713,7 @@ th {
         font-size: 14px !important;
     }
 
-    .botTxt1{
+    .botTxt1 {
         opacity: 100%;
         transition: 1.5s;
         position: absolute;
@@ -711,7 +722,7 @@ th {
         font-size: 14px !important;
     }
 
-    .botTxt2{
+    .botTxt2 {
         opacity: 100%;
         transition: 1.5s;
         position: absolute;
@@ -747,7 +758,7 @@ th {
         transition: 1.5s ease;
     }
 
-    .time2{
+    .time2 {
         width: 15px;
         height: 15px;
         top: -39px;
@@ -755,7 +766,7 @@ th {
         transition: 1.5s ease;
     }
 
-    .time3{
+    .time3 {
         width: 15px;
         height: 15px;
         top: -39px;
@@ -763,7 +774,7 @@ th {
         transition: 1.5s ease;
     }
 
-    .time4{
+    .time4 {
         width: 15px;
         height: 15px;
         top: -40px;
@@ -813,7 +824,7 @@ th {
     padding-bottom: 25px;
 }
 
-.policy{
+.policy {
     padding-left: 0 !important;
 }
 
@@ -847,7 +858,7 @@ th {
     color: #FDFFF0;
 }
 
-.submitBtn:hover{
+.submitBtn:hover {
     background-color: #1E1200;
 }
 
@@ -1043,274 +1054,274 @@ textarea {
 
 
 
-@media screen and (max-width: 1024px){
-    .topBtn{
+@media screen and (max-width: 1024px) {
+    .topBtn {
         right: 15px;
     }
 
-    .caterBox{
+    .caterBox {
         width: 42vw;
-        height: 35vh; 
+        height: 35vh;
     }
 
-    .banqRow a{
+    .banqRow a {
         font-size: 14px;
         text-wrap: nowrap;
     }
-    
-    .phone{
+
+    .phone {
         padding-right: 5px;
     }
 
-    .caterNote{
+    .caterNote {
         font-size: 18px;
     }
 
-    .caterTxt{
+    .caterTxt {
         font-size: 16px;
     }
 
-    td{
+    td {
         padding: 20px 50px 20px 50px;
     }
 
-    .banqTime p{
+    .banqTime p {
         text-wrap: nowrap;
     }
 
-    .timeline p{
+    .timeline p {
         font-size: 14px;
     }
 
 }
 
 @media screen and (max-width: 768px) {
-    .callToAction a{
+    .callToAction a {
         font-size: 14px;
     }
 
-    .callToAction img{
+    .callToAction img {
         width: 40px;
     }
 
-    .phone{
+    .phone {
         width: 35px !important;
     }
 
-    .topBtn{
+    .topBtn {
         right: 10px;
     }
 
-    td{
+    td {
         padding: 15px 40px 15px 40px;
     }
 
-    .caterTxt{
+    .caterTxt {
         font-size: 14px;
     }
 
-    .caterPad{
+    .caterPad {
         padding: 20px 0px;
     }
 
-    .banqTime p{
+    .banqTime p {
         text-wrap: nowrap;
         font-size: 12px;
     }
 
-    .timeline ul{
+    .timeline ul {
         margin-top: 0;
     }
 }
 
 @media screen and (max-width: 425px) {
-    .menuItems{
+    .menuItems {
         font-size: 12px;
     }
 
-    .navBox{
+    .navBox {
         width: 90%;
     }
 
-    .navBox a{
+    .navBox a {
         font-size: 14px;
     }
 
-    .callToAction a{
+    .callToAction a {
         font-size: 12px;
         text-wrap: nowrap;
     }
 
-    .callToAction img{
+    .callToAction img {
         width: 25px;
     }
 
-    .phone{
+    .phone {
         width: 25px !important;
         padding: 0 !important;
     }
-    
-    .topBtn{
+
+    .topBtn {
         right: 0px;
     }
 
-    .banqRow a{
+    .banqRow a {
         font-size: 12px;
         letter-spacing: normal;
     }
 
-    .caterNote{
+    .caterNote {
         font-size: 12px !important;
     }
 
-    td{
+    td {
         padding: 20px 10px;
         font-size: 12px;
     }
 
-    th{
+    th {
         font-size: 12px;
     }
 
-    .caterTxt li{
+    .caterTxt li {
         list-style-type: none;
     }
 
-    .caterTxt ul{
+    .caterTxt ul {
         padding: 0px;
     }
 
-    .caterPad{
+    .caterPad {
         padding: 15px 0px;
     }
 
-    .poliTxt{
+    .poliTxt {
         font-size: 10px;
     }
 
-    .banqTime p{
+    .banqTime p {
         font-size: 9px;
         text-wrap: wrap;
     }
 
-    .days p{
+    .days p {
         margin-bottom: 22px;
     }
 
-    .noPad{
+    .noPad {
         padding: 0 !important;
     }
 
-    .genInfo{
+    .genInfo {
         font-size: small;
     }
 }
 
-@media screen and (max-width: 375px){
-    .menuItems{
+@media screen and (max-width: 375px) {
+    .menuItems {
         font-size: 10px;
     }
 
-    .callToAction a{
+    .callToAction a {
         font-size: 10px;
     }
 
-    .callToAction img{
+    .callToAction img {
         width: 25px;
     }
 
-    .caterBox{
+    .caterBox {
         width: 20vh;
     }
 
-    td{
+    td {
         font-size: 8px;
         padding: 15px 12px;
     }
 
-    th{
+    th {
         font-size: 8px;
     }
 
-    .banqTime p{
+    .banqTime p {
         font-size: 8px;
         text-wrap: wrap;
     }
 
-    .days p{
+    .days p {
         margin-bottom: 21px;
     }
 }
 
 
-@media screen and (min-width: 1440px){
-    .topTxt1{
+@media screen and (min-width: 1440px) {
+    .topTxt1 {
         left: 42px;
         top: -130px;
         font-size: 18px !important;
     }
 
-    .topTxt2{
+    .topTxt2 {
         top: -130px;
         left: 5px;
         font-size: 18px !important;
     }
 
-    .botTxt2{
+    .botTxt2 {
         font-size: 18px !important;
         left: 65px;
         line-height: normal;
     }
 
-    .botTxt1{
+    .botTxt1 {
         font-size: 18px !important;
         top: -40px;
         left: 3px;
     }
 
-    .iconTop1{
+    .iconTop1 {
         left: 120px;
     }
 
-    .iconTop2{
+    .iconTop2 {
         left: 118px;
     }
-    
-    .iconBot1{
+
+    .iconBot1 {
         left: 112px;
         top: 50px;
     }
 
-    .iconBot2{
+    .iconBot2 {
         left: 116px;
         top: 40px;
     }
 
-    .banqRow p{
+    .banqRow p {
         text-wrap: nowrap;
     }
 
-    .padMe{
+    .padMe {
         padding-left: 250px !important;
         text-wrap: wrap;
     }
 }
 
-@media screen and (max-width:1440px){
-    .padMe{
+@media screen and (max-width:1440px) {
+    .padMe {
         padding-left: 300px !important;
         padding-top: 10px;
     }
 }
 
-@media screen and (max-width: 1025px){
-    .padMe{
+@media screen and (max-width: 1025px) {
+    .padMe {
         padding-left: 150px !important;
     }
 }
 
-@media screen and (max-width: 769px){
-    .padMe{
+@media screen and (max-width: 769px) {
+    .padMe {
         padding-left: 75px !important;
     }
 }

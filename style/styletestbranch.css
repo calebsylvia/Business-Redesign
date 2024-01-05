@@ -2,19 +2,8 @@
 
 
 /* Navbar */
-.custom-toggler {
-  border: none;
-}
 
-nav {
-  background-color: #1E1200;
-  height: 120px;
-  z-index: 1;
-}
 
-.navbar-collapse {
-  background-color: #1E1200; /* Set the background color to match the navbar */
-}
 
 
 /* Call to Action */
