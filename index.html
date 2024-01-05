@@ -21,7 +21,7 @@
   <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
       <a class="navbar-brand" href="./index.html">
-        <img src="./assets/Banner-logo.png" alt="Banner Logo for Dante's Pizza" style="height: 12rem;">
+        <img class="nav-logo" src="./assets/Banner-logo.png" alt="Banner Logo for Dante's Pizza" style="height: 12rem;">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -90,15 +90,15 @@
 
   <!-- Call to Action Row -->
   <div id="call-to-action" class="container-fluid">
-    <div class="row callToAction">
+    <div class="row callToAction font-calltoaction">
       <a class="action-a w-50 border-right"
         href="https://order.online/store/dante's-california-style-pizza-&-cafe-stockton-242218/?hideModal=true&pickup=true&utm_source=dd-partner-link"
         target="_blank">
         <div class="col d-flex align-items-center">
-          <div class="col-5 d-flex justify-content-end pe-1">
+          <div class="col-xl-5 col-lg-4 col-md-4 col-sm-4 d-flex justify-content-end pe-1">
             <img src="./assets/Vector.png" alt="Moped" />
           </div>
-          <div class="col">
+          <div class="col text-nowrap ps-2">
             <div class="row w-50 text-center mt-2">
               <p class="action-hover letter-spacing arvo fw-bold my-1">ORDER ONLINE NOW</p>
               <p>DELIVERY OR TAKEOUT</p>
@@ -108,10 +108,10 @@
       </a>
       <a class="action-a w-50" href="tel:2094740221">
         <div class="col d-flex align-items-center">
-          <div class="col-5 d-flex justify-content-end pe-1">
+          <div class="col-xl-5 col-lg-4 col-md-4 col-sm-4 d-flex justify-content-end pe-1">
             <img src="./assets/Vector_phone.png" alt="Phone" />
           </div>
-          <div class="col">
+          <div class="col text-nowrap ps-2">
             <div class="row w-50 text-center mt-2">
               <p class="letter-spacing arvo fw-bold my-1">CALL (209) 474 - 0221</p>
               <p>TAKEOUT ONLY</p>
@@ -128,7 +128,7 @@
       <div class="row pt-5 mt-5">
         <h4 class="red font-20 fw-bold pt-4 pb-5">WEEKLY SPECIALS</h4>
       </div>
-      <div class="row pb-4">
+      <div class="row pb-4 font-16">
         <h5 class="fira font-18 fw-bold pb-1">LARGE CALIFORNIA COMBO PIZZA</h5>
         <div class="fira font-18 line-specials">
           <p class="italic letter-specials">
@@ -137,18 +137,18 @@
           <p>Deal Price: $32.00</p>
         </div>
       </div>
-      <div class="row">
-        <div class="col">
+      <div class="row font-16">
+        <div class="col-auto">
           <h5 class="fira font-18 fw-bold pt-2 pb-1">LARGE ONE TOPPING PIZZA</h5>
           <div class="fira font-18 line-specials">
             <p class="italic letter-specials">Take out only. Available on weekdays Wednesday & Thursday.</p>
             <p>Deal Price: $25.00</p>
           </div>
         </div>
-        <div class="col d-flex justify-content-end pt-5 mt-4">
-          <img class="pe-5" src="./assets/Pizza.png" alt="Pizza Icon" style="height: 5.5rem;" />
-          <img class="pe-5" src="./assets/Utensils.png" alt="Fork and Knife Icon" style="height: 5.5rem;" />
-          <img src="./assets/Burger.png" alt="Burger Icon" style="height: 5.5rem;" />
+        <div class="col icons-display pt-5 mt-4">
+          <img class="pe-5 special-icon" src="./assets/Pizza.png" alt="Pizza Icon"/>
+          <img class="pe-5 special-icon" src="./assets/Utensils.png" alt="Fork and Knife Icon"/>
+          <img class="special-icon" src="./assets/Burger.png" alt="Burger Icon"/>
         </div>
       </div>
     </div>
@@ -157,36 +157,32 @@
   <!-- History Section -->
   <div class="container-fluid history">
     <div class="row">
-      <div class="col-5 px-0 h-100">
+      <div class="col-5 px-0 h-100 d-none d-xl-block">
         <img class="history-img img-fluid" src="./assets/image-24.png" alt="Chef stirring pot in the kitchen" />
       </div>
       <div class="col history-box">
         <h5 class="fw-bold font-20">OUR HISTORY</h5>
         <div class="fira font-20 small-text">
-          <p>
+          <p class="line-spacing-history">
             Dante's Restaurant was <span class="bolder-history">established in 1985</span> at our current
             location, <span class="bolder-history">9305 Thornton Road</span>, in north Stockton.
           </p>
-          <br />
-          <p>
+          <p class="line-spacing-history">
             Throughout the years, our small establishment has been fortunate to
             see growth, thanks to the support of our loyal customers who have
             kindly spread the word.
           </p>
-          <br />
-          <p>
+          <p class="line-spacing-history">
             What began as a modest pizza and sandwich caf&egrave; has
             <span class="bolder-history">gradually transformed</span> into a restaurant where we now offer a
             <em>variety of appetizers and salads, hot deli-style sandwiches,
               pizzas, and some of the best pasta dishes</em>
             in the city.
           </p>
-          <br />
-          <p>
+          <p class="line-spacing-history">
             We are grateful for the journey and the chance to share our evolving
             menu with our community.
           </p>
-          <br />
           <p>
             <span class="bolder-history">In addition to <em>dine-in, take out, and delivery services</em>,
               we currently offer <a href="./pages/catering.html">catering</a> as
@@ -200,21 +196,20 @@
 
   <!-- Hours & Location -->
   <div class="container-fluid my-5 py-5 openTimes text-center">
-    <div class="row">
-      <div class="col">
-        <hr />
+    <div class="row pt-5 pb-4">
+      <div class="col halfline-left-pad pt-2">
+        <hr class="halfLine"/>
       </div>
       <div class="col">
         <h4 class="red fw-bold font-20 pb-5">HOURS & LOCATION</h4>
       </div>
-      <div class="col">
-        <hr />
+      <div class="col halfline-right-pad pt-2">
+        <hr class="halfLine"/>
       </div>
     </div>
-    <div class="row font-18 fw-bold mx-5 px-5">
-      <div class="col-4 d-flex justify-content-center">
-        <div class="col text-start weekday-col">
-          <br />
+    <div class="row hours-box font-18 fw-bold pt-1 mx-5 px-5">
+      <div class="col-4">
+        <div class="col text-center weekday-col" style="padding-top: 40px;">
           <p>Sunday</p>
           <p>Monday</p>
           <p>Tuesday</p>
@@ -234,7 +229,7 @@
         <p>12:00PM-8:00PM</p>
         <p>12:00PM-8:00PM</p>
       </div>
-      <div class="col-4">
+      <div class="col-4 fira">
         <p class="red arvo">Dining Room</p>
         <p>12:00PM-7:30PM</p>
         <p>Closed</p>
@@ -245,12 +240,13 @@
         <p>12:00PM-7:30PM</p>
       </div>
     </div>
-    <div class="row font-18 fw-bold">
-      <div class="col">
+    <div class="row pt-5 d-flex justify-content-center align-items-center font-18 fw-bold">
+      <div class="col-auto">
         <img src="./assets/Pin1.png" alt="Pin Icon" />
       </div>
-      <p>9305 Thornton Rd.</p>
-      <p>Stockton, CA 95209</p>
+      <div class="col-auto pt-3">
+        <p>9305 Thornton Rd. <br> Stockton, CA 95209</p>
+      </div>
     </div>
   </div>
 
@@ -263,7 +259,7 @@
           <p class="arvo font-34 fw-bold">NOW HIRING!</p>
         </div>
         <div class="col-auto">
-          <img class="pb-4" src="./assets/paper.png" alt="Paper Icon" style="height: 4.75rem;"/>
+          <img class="pb-4 hiring-icon" src="./assets/paper.png" alt="Paper Icon"/>
         </div>
       </div>
       <div class="row hireTxt">
