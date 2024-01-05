@@ -281,6 +281,11 @@ a:root {
     padding-left: 0px;
 }
 
+.hours-box{
+    width: 60%;
+    margin: 0 auto !important;
+}
+
 /* Hiring Section */
 .hiringUpdated {
     height: 500px;
@@ -1431,6 +1436,9 @@ textarea {
     .padMe {
         padding-left: 150px !important;
     }
+    .hours-box{
+        width: 75%;
+    }
 }
 
 @media screen and (max-width: 769px) {
@@ -1443,5 +1451,9 @@ textarea {
         right: 0px;
         width: 100%;
         top: 120px;
+    }
+
+    .hours-box{
+        width: 100%;
     }
 }
