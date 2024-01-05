@@ -1346,6 +1346,11 @@ textarea {
 
 
 @media screen and (min-width: 1440px) {
+
+    .time1{
+        left: 140px;
+    }
+
     .topTxt1 {
         left: 42px;
         top: -130px;
