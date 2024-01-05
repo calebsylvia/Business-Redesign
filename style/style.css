@@ -51,6 +51,7 @@ body {
     padding-right: 80px;
 }
 
+
 /* Font Size */
 .font-34 {
     font-size: 34px;
@@ -139,7 +140,7 @@ nav {
 /* Line Breaks */
 .fullLine {
     background-color: #807555;
-    height: 2px;
+    height: 3px;
     width: 85%;
     opacity: 90% !important;
     border-radius: 10px;
@@ -378,16 +379,23 @@ footer {
 
 .menuItems {
     width: 85%;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
     padding-left: 0 !important;
     padding-right: 0 !important;
     font-size: 18px;
+    line-height: 1.5;
+}
+
+.menuItems p{
+    margin-bottom: 10px !important;
 }
 
 .menuItems li {
     list-style: none;
     font-style: italic;
 }
+
+
 
 .navBox {
     width: 50%;
@@ -1184,11 +1192,15 @@ textarea {
 
     td {
         padding: 20px 10px;
-        font-size: 12px;
+        font-size: 10px;
+    }
+
+    .salad td{
+        padding-left: 20px !important;
     }
 
     th {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .caterTxt li {
@@ -1401,6 +1413,10 @@ textarea {
     .padMe {
         padding-left: 250px !important;
         text-wrap: wrap;
+    }
+
+    td{
+        padding: 20px 100px;
     }
 }
 
