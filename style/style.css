@@ -97,6 +97,7 @@ nav {
     /* Set the background color to match the navbar */
 }
 
+
 .custom-toggler {
     border: none;
 }
@@ -496,8 +497,7 @@ th {
 .timeBox {
     padding: 100px 0px 75px 0px !important;
     width: 80%;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin: 100px auto;
 }
 
 .timeline {
@@ -660,6 +660,8 @@ th {
 
 
 @media screen and (min-width: 769px) {
+
+    
     .timeline {
         display: block;
     }
@@ -714,6 +716,7 @@ th {
         transition: 1.5s;
         position: absolute;
         top: -135px;
+        left: 10px;
         font-size: 14px !important;
     }
 
@@ -1219,6 +1222,64 @@ textarea {
     .genInfo {
         font-size: small;
     }
+
+
+    .time1{
+        left: -75px;
+    }
+
+    .time2{
+        left: -75px;
+    }
+
+    .time3{
+        left: -75px;
+    }
+
+    .time4{
+        left: -75px;
+    }
+
+    .leftTxt1{
+        left: -245px
+    }
+
+    .iconLeft1{
+        left: -180px;
+    }
+
+    .rightTxt1{
+        left: -50px;
+        height: 50px;
+        width: 150px;
+    }
+
+    .iconRight1{
+        left: 3px;
+    }
+
+    .leftTxt2{
+        left: -255px;
+    }
+
+    .iconLeft2{
+        left: -190px;
+    }
+
+    .rightTxt2{
+        left: -65px;
+        top: 180px;
+        width: 150px;
+    }
+
+    .iconRight2{
+        left: -5px;
+        top: 155px;
+    }
+
+    .padMe{
+        padding-left: 30px !important;
+    }
 }
 
 @media screen and (max-width: 375px) {
@@ -1255,6 +1316,26 @@ textarea {
     .days p {
         margin-bottom: 21px;
     }
+
+    .time1{
+        left: -67px;
+    }
+
+    .time2{
+        left: -67px
+    }
+
+    .time3{
+        left: -67px;
+    }
+
+    .time4{
+        left: -67px;
+    }
+
+    .rightTxt2{
+        left: -55px;
+    }
 }
 
 
@@ -1267,7 +1348,8 @@ textarea {
 
     .topTxt2 {
         top: -130px;
-        left: 5px;
+        left: -10px;
+        width: 300px;
         font-size: 18px !important;
     }
 
@@ -1313,7 +1395,7 @@ textarea {
 
 @media screen and (max-width:1440px) {
     .padMe {
-        padding-left: 300px !important;
+        padding-left: 200px !important;
         padding-top: 10px;
     }
 }
@@ -1327,5 +1409,12 @@ textarea {
 @media screen and (max-width: 769px) {
     .padMe {
         padding-left: 75px !important;
+    }
+
+    .navbar-collapse{
+        position: absolute;
+        right: 0px;
+        width: 100%;
+        top: 120px;
     }
 }
