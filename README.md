@@ -6,6 +6,12 @@
 > **Project Description:** This was a partner project where we `redesigned` the `existing website` of a `local business` in our community. The overall goal was to keep the personality from Dantes Pizza & Cafe's original design, but optimize the website to create a better user experience. Our design was `presented to a panel` of UI/UX, web, and business development specialists to obtain design critques prior to our project development start in Sprint Week 3.
 
 
+## Peer Review
+Name: 
+Comment(s):
+Date/ Time: 
+
+
 ## Timeline
 
 | Sprint | Description | Tools |
