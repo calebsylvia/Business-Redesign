@@ -1,7 +1,5 @@
 /* Universal */
-.font-16 {
-  font-size: 16px;
-}
+
 
 /* Navbar */
 
@@ -10,41 +8,20 @@
 
 /* Call to Action */
 
-.font-calltoaction {
-  font-size: 16px;
-}
+
 
 /* Weekly Specials */
-.special-icon {
-  height: 5.5rem;
-}
 
-.icons-display {
-  display: flex;
-  justify-content: end;
-}
 
 /* History */
-.small-text a {
-  color: #887D5D;
-  font-size: larger;
-  font-weight: 800;
-}
 
-.line-spacing-history {
-  padding-bottom: 28px;
-}
 
 
 /* Hours & Location */
-.weekday-col {
-  padding-left: 0px;
-}
+
 
 /* Now Hiring */
-.hiring-icon {
-  height: 4.75rem;
-}
+
 
 
 
@@ -57,175 +34,6 @@
     flex-direction: column;
   } */
 
-.heroTxtUpdated {
-  color: #FDFFF0;
-  font-family: 'Arvo', serif;
-  text-align: center;
-  opacity: 100% !important;
-  /* add to html row: h-100 d-flex align-items-center */
-}
+
 
 /* Media Queries */
-@media screen and (max-width: 1902px) {
-  .font-20 {
-    font-size: 18px;
-  }
-
-  .history-box {
-    padding: 100px 100px;
-  }
-}
-
-@media screen and (max-width: 1616px) {
-  .history-box {
-    padding: 80px 80px;
-  }
-
-  .small-text {
-    padding-top: 40px;
-  }
-}
-
-@media screen and (max-width: 1510px) {
-  .font-calltoaction {
-    font-size: 14px;
-  }
-}
-
-@media screen and (max-width: 1486px) {
-  .font-20 {
-    font-size: 16px;
-  }
-
-  .line-spacing-history {
-    padding-bottom: 20px;
-  }
-
-  .history-box {
-    padding: 60px 60px;
-  }
-}
-
-@media screen and (max-width: 1368px) {
-  .line-spacing-history {
-    padding-bottom: 0px;
-  }
-}
-
-@media screen and (max-width: 991px) {
-  .nav-logo {
-    height: 10rem !important;
-  }
-
-  .navbar-brand {
-    left: 30px;
-  }
-
-  .font-16 {
-    font-size: 14px;
-  }
-
-  .special-icon {
-    height: 3.5rem;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .font-16 {
-    font-size: 14px;
-  }
-
-  .special-icon {
-    height: 6.2rem;
-  }
-
-  .specDealsUpdated {
-    height: 680px;
-  }
-
-  .icons-display {
-    justify-content: center !important;
-  }
-}
-
-@media screen and (max-width: 720px) {
-  .font-calltoaction {
-    font-size: 12px;
-  }
-
-  .hours-box {
-    margin: 0px 0px !important;
-    padding: 0px 0px !important;
-  }
-
-  .halfline-left-pad {
-    padding-left: 70px;
-  }
-
-  .halfline-right-pad {
-    padding-right: 70px;
-  }
-}
-
-@media screen and (max-width: 583px) {
-  .font-16 {
-    font-size: 12px;
-  }
-
-  .hireBoxUpdated {
-    width: 300px;
-    height: 200px;
-    padding-top: 30px;
-  }
-
-  .font-34 {
-    font-size: 25px;
-  }
-
-  .font-21 {
-    font-size: 16.5px;
-  }
-
-  .hiring-icon {
-    height: 3.75rem;
-  }
-}
-
-@media screen and (max-width: 501px) {
-  .font-calltoaction {
-    font-size: 9px;
-  }
-
-  .font-18 {
-    font-size: 12px;
-  }
-
-  .hours-box {
-    padding-top: -50px !important;
-  }
-}
-
-@media screen and (max-width: 423px) {
-  .special-icon {
-    height: 3.8rem;
-  }
-
-  .hireBoxUpdated {
-    width: 150px;
-    height: 200px;
-    padding-top: 40px;
-  }
-
-  .font-34 {
-    font-size: 22px;
-  }
-
-  .font-21 {
-    font-size: 14px;
-  }
-
-  .hiring-icon {
-    height: 3.5rem;
-    display: none;
-  }
-}
