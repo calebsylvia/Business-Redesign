@@ -1,4 +1,4 @@
-# Business Redesign <img src="./favicon.png" alt="Icon for Dante's Pizza" style="height: 2rem;"> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<a href="https://business-redesign.vercel.app/">![Website](https://img.shields.io/website?url=https%3A%2F%2Fbusiness-redesign.vercel.app%2F&up_message=ONLINE&up_color=%23355E3B&down_message=OFFLINE&down_color=%238B0000&style=for-the-badge&logo=vercel)</a>
+# Business Redesign <img src="./favicon.png" alt="Icon for Dante's Pizza" style="height: 2rem;"> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<a href="https://business-redesign.vercel.app/">![Website](https://img.shields.io/website?url=https%3A%2F%2Fbusiness-redesign.vercel.app%2F&up_message=ONLINE&up_color=%23355E3B&down_message=OFFLINE&down_color=%238B0000&style=for-the-badge&logo=vercel)</a>
 
 
 **Project Team:** Elizabeth Trotter & Caleb Sylvia
