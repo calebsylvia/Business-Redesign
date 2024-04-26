@@ -1110,6 +1110,10 @@ textarea {
     .banqHero {
         height: 20vh;
     }
+
+    .contHero {
+        height: 20vh;
+    }
 }
 
 
@@ -1192,6 +1196,11 @@ textarea {
 
     .timeline ul {
         margin-top: 0;
+    }
+
+    .contactRow {
+        padding-left: 8px;
+        padding-right: 8px;
     }
 }
 
