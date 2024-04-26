@@ -13,7 +13,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Fira+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
     rel="stylesheet">
-  <link rel="shortcut icon" href="../favicon.png"/>
+  <link rel="shortcut icon" href="../favicon.png" />
 </head>
 
 <body>
@@ -70,24 +70,43 @@
 
   <!-- Call to Action Row -->
 
-  <div class="container-fluid">
+  <div class="container-fluid d-none d-block-sm">
     <div class="row banqRow">
       <a class="action-a w-50 border-call mx-auto" href="tel:2094740221">
         <div class="col d-flex align-items-center">
           <div class="col-5 d-flex justify-content-end pe-1">
-            <img src="../assets/Vector_phone.png" alt="Phone" />
+            <img class="phone" src="../assets/Vector_phone.png" alt="Phone" />
           </div>
           <div class="col">
-            <div class="row w-50 text-center mt-2">
+            <div id="callToAction" class="row w-100 mt-2">
               <p class="letter-spacing arvo fw-bold my-1">CALL (209) 474 - 0221</p>
-              <p>TO RESERVE</p>
+              <p class="fira">TO RESERVE</p>
             </div>
           </div>
         </div>
       </a>
+      </div>
     </div>
   </div>
+  <div class="container-fluid d-none-sm">
+    <div class="row banqRow">
+      <a class="action-a w-50 border-call mx-auto" href="tel:2094740221">
+        <div class="col d-flex align-items-center">
+          <div class="col-5 d-flex justify-content-end pe-3">
+            <img class="phone" src="../assets/Vector_phone.png" alt="Phone" />
+          </div>
+          <div class="col">
+            <div id="callToAction" class="row w-100 mt-2">
+              <p class="letter-spacing arvo fw-bold my-1">CALL</p>
+              <p class="fira">TO RESERVE</p>
+            </div>
+          </div>
+        </div>
+      </a>
+      </div>
+    </div>
   </div>
+  
 
   <!-- General Info -->
 
